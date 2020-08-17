@@ -4,7 +4,8 @@
       <div class="text text-sl">Vant-Project</div>
     </div>
     <div class="cell">
-      <van-cell title="商城列表" is-link to="/goods/list"></van-cell>
+      <van-cell title="商品列表" is-link to="/goods/list"></van-cell>
+      <van-cell title="商品分类" is-link to="/goods/categories"></van-cell>
     </div>
     <tabbar :active="0"></tabbar>
   </div>

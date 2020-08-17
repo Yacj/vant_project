@@ -18,12 +18,36 @@ Vue.use(VueRouter)
       component:()=>import('../views/home/Home')
     },
     {
+      path:'/cart',
+      name:'cart',
+      meta:{
+        title: '购物车'
+      },
+      component:()=>import('../views/home/cart')
+    },
+    {
       path:'/goods/list',
       name:'goodsList',
       meta:{
         title:'商品列表'
       },
       component:()=>import('../views/goods/list')
+    },
+    {
+      path: '/goods/categories',
+      name:'goodsCategories',
+      meta: {
+        title: '商品分类'
+      },
+      component:()=>import('../views/goods/categories')
+    },
+    {
+      path: '/goods/details',
+      name:'goodsDetails',
+      meta: {
+        title: '商品详情'
+      },
+      component:()=>import('../views/goods/details')
     }
   ]
 
