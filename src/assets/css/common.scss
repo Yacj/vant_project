@@ -1,5 +1,4 @@
-@import "color";
-@import "flex";
+@import  "Colorui";
 @import "normalize";
 html {
   -webkit-text-size-adjust: 100%;
@@ -128,70 +127,4 @@ div:focus {
 
 .fr {
   float: right;
-}
-
-.text-price {
-  &:before{
-    content: "¥";
-    font-size: 80%;
-    margin-right: 2px;
-  }
-}
-
-.text-cut {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.text-bold {
-  font-weight: bold;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-content {
-  line-height: 1.6;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-xs {
-  font-size: 10px;
-}
-
-.text-sm {
-  font-size: 12px;
-}
-
-.text-df {
-  font-size: 14px;
-}
-
-.text-lg {
-  font-size: 16px;
-}
-
-.text-xl {
-  font-size: 18px;
-}
-
-.text-xxl {
-  font-size: 22px;
-}
-
-.text-sl {
-  font-size: 40px;
-}
-
-.text-xsl {
-  font-size: 60px;
 }

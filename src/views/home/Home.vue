@@ -3,9 +3,11 @@
     <div class="hd text-center flex justify-center align-center">
       <div class="text text-sl">Vant-Project</div>
     </div>
-    <div class="cell">
-      <van-cell title="商品列表" is-link to="/goods/list"></van-cell>
-      <van-cell title="商品分类" is-link to="/goods/categories"></van-cell>
+    <div class="text-xxl padding">
+      <span class="text-price  text-xsl">23</span>
+    </div>
+    <div class="test">
+      我
     </div>
     <tabbar :active="0"></tabbar>
   </div>
@@ -31,6 +33,9 @@ export default {
     }
     .cell{
       padding: 0 15px;
+    }
+    .test{
+      color: $theme;
     }
   }
 </style>
