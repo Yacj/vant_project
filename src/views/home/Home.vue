@@ -1,14 +1,15 @@
 <template>
   <div class="home">
-    <div class="hd text-center flex justify-center align-center">
-      <div class="text text-sl">Vant-Project</div>
-    </div>
-    <div class="text-xxl padding">
-      <span class="text-price  text-xsl">23</span>
-    </div>
-    <div class="test">
-      我
-    </div>
+    <!-- 居中 -->
+    <van-row type="flex" justify="center" class="hd">
+      <van-col class="text text-sl">Vant-Project</van-col>
+    </van-row>
+    <van-row type="flex" justify="space-around">
+      <van-col span="6" class="text-center">span: 6</van-col>
+      <van-col span="6"  class="text-center">span: 6</van-col>
+      <van-col span="6"  class="text-center">span: 6</van-col>
+    </van-row>
+    <back-top/>
     <tabbar :active="0"></tabbar>
   </div>
 </template>
@@ -17,9 +18,10 @@
 
 
 import Tabbar from "../../components/Tabbar/Tabbar";
+import BackTop from "@/components/FloatButton/backTop";
 export default {
   name: 'Home',
-  components: {Tabbar},
+  components: {BackTop, Tabbar},
 }
 </script>
 

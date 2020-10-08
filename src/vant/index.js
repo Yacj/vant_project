@@ -1,11 +1,4 @@
-import Vue from 'vue'
-import { Cell, CellGroup } from 'vant';
-import { Tabbar, TabbarItem } from 'vant';
-import { Toast } from 'vant';
-import { Empty } from 'vant';
-Vue.use(Toast);
-Vue.use(Empty);
-Vue.use(Tabbar);
-Vue.use(TabbarItem);
-Vue.use(Cell);
-Vue.use(CellGroup);
+import Vue from "vue";
+import {Cell, CellGroup, Empty, Tabbar, TabbarItem, Toast,Col, Row,icon} from "vant";
+
+Vue.use(Toast).use(Empty).use(Tabbar).use(TabbarItem).use(Cell).use(CellGroup).use(Col).use(Row).use(icon)
